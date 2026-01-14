@@ -27,7 +27,7 @@ export default function Search({ onSearch }) {
         </label>
         <input
           id="pokemon-search"
-          type="search"
+          type="text"
           placeholder="Search that Pokémon!"
           value={value}
           onChange={(e) => {
