@@ -21,9 +21,6 @@ export default async function Page() {
     <main className="min-h-screen">
       <div className="mx-auto flex w-full max-w-[1200px] flex-col gap-8 px-6 py-10">
         <header className="space-y-3 text-center sm:text-left">
-          <h1 className="text-4xl font-semibold text-slate-900 sm:text-5xl font-[var(--font-display)]">
-            Pokédex
-          </h1>
           <p className="text-sm text-slate-500 sm:text-base">
             Explore Pokémon profiles with clean visuals, quick search, and
             detailed stats at a glance.

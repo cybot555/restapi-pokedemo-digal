@@ -23,12 +23,12 @@ export default function Search({ onSearch }) {
           />
         </svg>
         <label htmlFor="pokemon-search" className="sr-only">
-          Search Pokémon
+          Search that Pokémon
         </label>
         <input
           id="pokemon-search"
           type="search"
-          placeholder="Search Pokémon..."
+          placeholder="Search that Pokémon!"
           value={value}
           onChange={(e) => {
             setValue(e.target.value);
