@@ -38,10 +38,10 @@ export default function PokemonCard({ pokemon }) {
           </div>
         </div>
 
-        <div className="mt-auto px-5 pb-5">
+        <div className="mt-auto flex justify-center px-5 pb-5">
           <button
             onClick={() => setShowStats((prev) => !prev)}
-            className="inline-flex items-center justify-center rounded-full bg-slate-900 px-4 py-2 text-sm font-medium text-white shadow-sm transition hover:bg-slate-800 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-slate-400/60"
+            className="inline-flex items-center justify-center rounded-full bg-blue-800 px-4 py-2 text-sm font-medium text-white shadow-sm transition hover:bg-green-600 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-slate-400/60"
             aria-haspopup="dialog"
             aria-expanded={showStats}
             aria-controls={`stats-${pokemon.id}`}
